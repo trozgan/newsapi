@@ -1,6 +1,6 @@
 <?php
 
-namespace Trozgan\NewsApi\Facades;
+namespace NewsApi\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

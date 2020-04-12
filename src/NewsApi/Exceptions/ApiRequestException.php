@@ -1,6 +1,6 @@
 <?php
 
-namespace Trozgan\NewsApi\Exceptions;
+namespace NewsApi\Exceptions;
 
 use Exception;
 

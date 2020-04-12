@@ -1,8 +1,8 @@
 <?php
-namespace Trozgan\NewsApi;
+namespace NewsApi;
 
 use GuzzleHttp\Client as Client;
-use Trozgan\NewsApi\Exceptions\ApiRequestException;
+use NewsApi\Exceptions\ApiRequestException;
 
 class NewsApiClient {
 

@@ -1,9 +1,9 @@
 <?php
 
-namespace Trozgan\NewsApi\Requests;
+namespace NewsApi\Requests;
 
-use Trozgan\NewsAPI\Exceptions\ApiRequestException;
-use Trozgan\NewsAPI\NewsApiClient;
+use NewsAPI\Exceptions\ApiRequestException;
+use NewsAPI\NewsApiClient;
 
 abstract class BaseRequest extends NewsAPIClient{
     public $allowedParams = [

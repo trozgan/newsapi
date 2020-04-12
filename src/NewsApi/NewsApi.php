@@ -1,10 +1,10 @@
 <?php
 
-namespace Trozgan\NewsApi;
+namespace NewsApi;
 
-use Trozgan\NewsApi\Requests\Sources;
-use Trozgan\NewsApi\Requests\TopHeadlines;
-use Trozgan\NewsApi\Requests\Everything;
+use NewsApi\Requests\Sources;
+use NewsApi\Requests\TopHeadlines;
+use NewsApi\Requests\Everything;
 
 class NewsApi {
   public function sources(){

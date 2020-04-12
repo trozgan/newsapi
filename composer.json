@@ -11,7 +11,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Trozgan\\NewsApi\\NewsApiServiceProvider"
+                "NewsApi\\NewsApiServiceProvider"
             ],
             "aliases": {
             }
@@ -19,7 +19,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Trozgan\\NewsApi\\": "src/"
+            "NewsApi\\": "src/"
         }
     }
 }

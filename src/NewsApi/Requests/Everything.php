@@ -1,6 +1,6 @@
 <?php
 
-namespace Trozgan\NewsApi\Requests;
+namespace NewsApi\Requests;
 
 class Everything extends BaseRequest {
 

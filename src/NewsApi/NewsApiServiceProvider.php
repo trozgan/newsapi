@@ -1,5 +1,5 @@
 <?php
-namespace Trozgan\NewsApi;
+namespace NewsApi;
 
 use Illuminate\Support\ServiceProvider;
 
