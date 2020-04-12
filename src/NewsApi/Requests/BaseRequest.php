@@ -2,10 +2,10 @@
 
 namespace NewsApi\Requests;
 
-use NewsAPI\Exceptions\ApiRequestException;
-use NewsAPI\NewsApiClient;
+use NewsApi\Exceptions\ApiRequestException;
+use NewsApi\NewsApiClient;
 
-abstract class BaseRequest extends NewsAPIClient{
+abstract class BaseRequest extends NewsApiClient{
     public $allowedParams = [
         'q',
         'country',
