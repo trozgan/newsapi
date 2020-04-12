@@ -6,20 +6,25 @@ namespace Composer\Autoload;
 
 class ComposerStaticInit15a45b4294b099b08e239c1c276f8e7f
 {
-    public static $prefixesPsr0 = array (
+    public static $prefixLengthsPsr4 = array (
         'T' => 
         array (
-            'Trozgan\\NewsApi\\' => 
-            array (
-                0 => __DIR__ . '/../..' . '/src',
-            ),
+            'Trozgan\\NewsApi\\' => 16,
+        ),
+    );
+
+    public static $prefixDirsPsr4 = array (
+        'Trozgan\\NewsApi\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/src',
         ),
     );
 
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixesPsr0 = ComposerStaticInit15a45b4294b099b08e239c1c276f8e7f::$prefixesPsr0;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit15a45b4294b099b08e239c1c276f8e7f::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit15a45b4294b099b08e239c1c276f8e7f::$prefixDirsPsr4;
 
         }, null, ClassLoader::class);
     }
