@@ -1,0 +1,16 @@
+{
+    "name": "trozgan/newsapi",
+    "description": "newsapi.org laravel package",
+    "type": "project",
+    "require": {
+        "php": "7.0",
+        "guzzlehttp/guzzle": "6.0"
+    },
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-0": {
+            "Trozgan\\NewsApi\\": "src/"
+        }
+    }
+}
