@@ -3,8 +3,8 @@
     "description": "newsapi.org laravel package",
     "type": "library",
     "require": {
-        "php": "7.0",
-        "guzzlehttp/guzzle": "6.0"
+        "php": "^7.0",
+        "guzzlehttp/guzzle": "^6.0"
     },
     "license": "MIT",
     "minimum-stability": "dev",
